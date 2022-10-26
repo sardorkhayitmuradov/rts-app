@@ -1,14 +1,12 @@
 import ReactDOM  from "react-dom/client";
-import UserSearch from "./state/UserSearch";
-// import GuestList from "./state/GuestList";
+import EventComponent from "./events/EventComponent";
 
 const element = document.getElementById('root');
 const root = ReactDOM.createRoot(element!)
 
 const App = () => {
     return <div>
-        {/* <GuestList /> */}
-        <UserSearch />
+        <EventComponent/>
     </div>
 }
 
