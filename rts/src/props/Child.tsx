@@ -1,6 +1,6 @@
 interface ChildProps {
     color: string;
-    children: string
+    children: string;
     onClick: () => void;
 }
 
